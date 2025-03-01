@@ -17,16 +17,16 @@ const generateNumberFunc = (x: number): NumberFunc => {
 	};
 }
 
-export const zero = generateNumberFunc(0)
-export const one = generateNumberFunc(0)
-export const two = generateNumberFunc(0)
-export const three = generateNumberFunc(0)
-export const four = generateNumberFunc(0)
-export const five = generateNumberFunc(0)
-export const six = generateNumberFunc(0)
-export const seven = generateNumberFunc(0)
-export const eight = generateNumberFunc(0)
-export const nine = generateNumberFunc(0)
+export const zero = generateNumberFunc(0);
+export const one = generateNumberFunc(1);
+export const two = generateNumberFunc(2);
+export const three = generateNumberFunc(3);
+export const four = generateNumberFunc(4);
+export const five = generateNumberFunc(5);
+export const six = generateNumberFunc(6);
+export const seven = generateNumberFunc(7);
+export const eight = generateNumberFunc(8);
+export const nine = generateNumberFunc(9);
 
 export const times: Operation = (x) => {
 	return (y) => {
