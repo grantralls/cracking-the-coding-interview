@@ -21,18 +21,16 @@ const generateNumberFunc = (x: number): NumberFunc => {
  * Maps a numbers name with its function 
  * NUMBER_FUNCS[six]() is my equivalent version of "six()". Is it actually better, I'm not totally convinced. Maybe a little bit of "ego-driven-development" going on here. At least now if the numberFunc changes, I don't have 10 places to change it at.
  */
-export const NUMBER_FUNCS = {
-	"zero": generateNumberFunc(0),
-	"one": generateNumberFunc(1),
-	"two": generateNumberFunc(2),
-	"three": generateNumberFunc(3),
-	"four": generateNumberFunc(4),
-	"five": generateNumberFunc(5),
-	"six": generateNumberFunc(6),
-	"seven": generateNumberFunc(7),
-	"eight": generateNumberFunc(8),
-	"nine": generateNumberFunc(9),
-};
+export const zero = generateNumberFunc(0)
+export const one = generateNumberFunc(0)
+export const two = generateNumberFunc(0)
+export const three = generateNumberFunc(0)
+export const four = generateNumberFunc(0)
+export const five = generateNumberFunc(0)
+export const six = generateNumberFunc(0)
+export const seven = generateNumberFunc(0)
+export const eight = generateNumberFunc(0)
+export const nine = generateNumberFunc(0)
 
 export const times: Operation = (x) => {
 	return (y) => {

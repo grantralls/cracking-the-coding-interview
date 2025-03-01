@@ -1,10 +1,10 @@
-import { NUMBER_FUNCS, plus, minus, times, dividedBy } from './index';
+import { two, three, four, five, six, seven, eight, nine, plus, minus, times, dividedBy } from './index';
 
 describe('calc-with-func', () => {
 	it('work with the example input', () => {
-		expect(NUMBER_FUNCS["seven"](times(NUMBER_FUNCS["five"]()))).toEqual(35);
-		expect(NUMBER_FUNCS["four"](plus(NUMBER_FUNCS["nine"]()))).toEqual(13);
-		expect(NUMBER_FUNCS["eight"](minus(NUMBER_FUNCS["three"]()))).toEqual(5);
-		expect(NUMBER_FUNCS["six"](dividedBy(NUMBER_FUNCS["two"]()))).toEqual(3);
+		expect(seven(times(five()))).toEqual(35);
+		expect(four(plus(nine()))).toEqual(13);
+		expect(eight(minus(three()))).toEqual(5);
+		expect(six(dividedBy(two()))).toEqual(3);
 	});
 });
