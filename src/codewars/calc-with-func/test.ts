@@ -1,6 +1,6 @@
 import { NUMBER_FUNCS, plus, minus, times, dividedBy } from './index';
 
-describe('string compression', () => {
+describe('calc-with-func', () => {
 	it('work with the example input', () => {
 		expect(NUMBER_FUNCS["seven"](times(NUMBER_FUNCS["five"]()))).toEqual(35);
 		expect(NUMBER_FUNCS["four"](plus(NUMBER_FUNCS["nine"]()))).toEqual(13);
